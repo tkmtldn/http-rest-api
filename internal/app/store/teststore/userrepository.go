@@ -1,8 +1,8 @@
 package teststore
 
 import (
-	"errors"
 	"http-rest-api/internal/app/model"
+	"http-rest-api/internal/app/store"
 )
 
 type UserRepository struct {
@@ -28,7 +28,7 @@ func (r *UserRepository) Create(u *model.User) error {
 func (r *UserRepository) FindByEmail(email string) (*model.User, error) {
 	u, ok := r.users[email]
 	if !ok {
-		return nil, errors.New("E-mail not found")
+		return nil, store.ErrRecordNotFound
 	}
 
 	return u, nil

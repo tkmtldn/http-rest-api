@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25e39442-6890-43d8-a94e-c60f13eb9b61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/internal/app/apiserver/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/app/apiserver/server_internal_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/app/store/errors.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiserver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/apiserver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/apiserver/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/apiserver/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/apiserver.toml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/apiserver.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/apiserver/apiserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/apiserver/apiserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/apiserver/apiserver_internal_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/apiserver/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/apiserver/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/store/sqlstore/userrepository.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/sqlstore/userrepository.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/store/sqlstore/userrepository_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/sqlstore/userrepository_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/store/teststore/userrepository.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/teststore/userrepository.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/store/teststore/userrepository_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/teststore/userrepository_test.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="restapi_dev: database" type="162271b6:PgImplModel$Database" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/internal/app/apiserver/config.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configs/apiserver.toml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/internal/app/apiserver/server_internal_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/internal/app/apiserver/server.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+              <folding>
+                <element signature="e#19#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/internal/app/apiserver/apiserver.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#19#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmd/apiserver/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+              <folding>
+                <element signature="e#14#110#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="tkmtldn" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="http-rest-api" />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/.." />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/internal/app/apiserver/apiserver_internal_test.go" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/migrations/20200827233505_create_users.up.sql" />
+        <option value="$PROJECT_DIR$/migrations/20200827233505_create_users.down.sql" />
+        <option value="$PROJECT_DIR$/internal/app/store/config.go" />
+        <option value="$PROJECT_DIR$/internal/app/store/store_test.go" />
+        <option value="$PROJECT_DIR$/internal/app/model/testing.go" />
+        <option value="$PROJECT_DIR$/internal/app/store/userrepository.go" />
+        <option value="$PROJECT_DIR$/internal/app/model/validations.go" />
+        <option value="$PROJECT_DIR$/internal/app/model/user.go" />
+        <option value="$PROJECT_DIR$/internal/app/model/user_test.go" />
+        <option value="$PROJECT_DIR$/internal/app/store/testing.go" />
+        <option value="$PROJECT_DIR$/internal/app/store/userrepository_test.go" />
+        <option value="$PROJECT_DIR$/internal/app/store/sqlstore/testing.go" />
+        <option value="$PROJECT_DIR$/internal/app/store/store.go" />
+        <option value="$PROJECT_DIR$/internal/app/store/repository.go" />
+        <option value="$PROJECT_DIR$/internal/app/store/sqlstore/store.go" />
+        <option value="$PROJECT_DIR$/internal/app/store/teststore/store.go" />
+        <option value="$PROJECT_DIR$/internal/app/store/errors.go" />
+        <option value="$PROJECT_DIR$/internal/app/store/teststore/userrepository.go" />
+        <option value="$PROJECT_DIR$/internal/app/store/teststore/userrepository_test.go" />
+        <option value="$PROJECT_DIR$/internal/app/store/sqlstore/userrepository.go" />
+        <option value="$PROJECT_DIR$/internal/app/store/sqlstore/userrepository_test.go" />
+        <option value="$PROJECT_DIR$/internal/app/apiserver/config.go" />
+        <option value="$PROJECT_DIR$/configs/apiserver.toml" />
+        <option value="$PROJECT_DIR$/internal/app/apiserver/apiserver.go" />
+        <option value="$PROJECT_DIR$/cmd/apiserver/main.go" />
+        <option value="$PROJECT_DIR$/internal/app/apiserver/server_internal_test.go" />
+        <option value="$PROJECT_DIR$/internal/app/apiserver/server.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="50" />
+    <option name="width" value="1346" />
+    <option name="height" value="698" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="http-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="http-rest-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="http-rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="http-rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="apiserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="http-rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="http-rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="http-rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="http-rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="apiserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="http-rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anthony\go\src\http-rest-api\internal\app\store\sqlstore" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Test.TestServer_HandleUsersCreate in http-rest-api/internal/app/apiserver">
+    <configuration name="TestServer_HandleUsersCreate in http-rest-api/internal/app/apiserver" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="http-rest-api" />
+      <working_directory value="$PROJECT_DIR$/internal/app/apiserver" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="http-rest-api/internal/app/apiserver" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestServer_HandleUsersCreate$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUserRepository_Create in http-rest-api/internal/app/store/sqlstore" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="http-rest-api" />
+      <working_directory value="$PROJECT_DIR$/internal/app/store/sqlstore" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="http-rest-api/internal/app/store/sqlstore" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestUserRepository_Create$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUserRepository_Create in http-rest-api/internal/app/store/teststore" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="http-rest-api" />
+      <working_directory value="$PROJECT_DIR$/internal/app/store/teststore" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="http-rest-api/internal/app/store/teststore" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestUserRepository_Create$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUserRepository_FindByEmail in http-rest-api/internal/app/store/sqlstore" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="http-rest-api" />
+      <working_directory value="$PROJECT_DIR$/internal/app/store/sqlstore" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="http-rest-api/internal/app/store/sqlstore" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestUserRepository_FindByEmail$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUserRepository_FindByEmail in http-rest-api/internal/app/store/teststore" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="http-rest-api" />
+      <working_directory value="$PROJECT_DIR$/internal/app/store/teststore" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="http-rest-api/internal/app/store/teststore" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestUserRepository_FindByEmail$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestServer_HandleUsersCreate in http-rest-api/internal/app/apiserver" />
+        <item itemvalue="Go Test.TestUserRepository_FindByEmail in http-rest-api/internal/app/store/sqlstore" />
+        <item itemvalue="Go Test.TestUserRepository_FindByEmail in http-rest-api/internal/app/store/teststore" />
+        <item itemvalue="Go Test.TestUserRepository_Create in http-rest-api/internal/app/store/teststore" />
+        <item itemvalue="Go Test.TestUserRepository_Create in http-rest-api/internal/app/store/sqlstore" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestUser_Validate_in_http-rest-api_internal_app_model - 2020.08.30 at 21h 39m 34s.xml">
+      <configuration name="TestUser_Validate in http-rest-api/internal/app/model" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestUser_Validate_in_http-rest-api_internal_app_model - 2020.08.30 at 21h 41m 50s.xml">
+      <configuration name="TestUser_Validate in http-rest-api/internal/app/model" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestUserRepository_FindByEmail_in_http-rest-api_internal_app_store - 2020.08.30 at 23h 55m 26s.xml">
+      <configuration name="TestUserRepository_FindByEmail in http-rest-api/internal/app/store" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestUserRepository_FindByEmail_in_http-rest-api_internal_app_store_sqlstore - 2020.08.31 at 00h 00m 39s.xml">
+      <configuration name="TestUserRepository_FindByEmail in http-rest-api/internal/app/store/sqlstore" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestUserRepository_Create_in_http-rest-api_internal_app_store_sqlstore - 2020.08.31 at 09h 40m 22s.xml">
+      <configuration name="TestUserRepository_Create in http-rest-api/internal/app/store/sqlstore" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestUserRepository_Create_in_http-rest-api_internal_app_store_teststore - 2020.08.31 at 12h 02m 13s.xml">
+      <configuration name="TestUserRepository_Create in http-rest-api/internal/app/store/teststore" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestUserRepository_FindByEmail_in_http-rest-api_internal_app_store_teststore - 2020.08.31 at 12h 02m 19s.xml">
+      <configuration name="TestUserRepository_FindByEmail in http-rest-api/internal/app/store/teststore" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestUserRepository_FindByEmail_in_http-rest-api_internal_app_store_teststore - 2020.08.31 at 14h 26m 38s.xml">
+      <configuration name="TestUserRepository_FindByEmail in http-rest-api/internal/app/store/teststore" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestUserRepository_FindByEmail_in_http-rest-api_internal_app_store_sqlstore - 2020.08.31 at 14h 28m 43s.xml">
+      <configuration name="TestUserRepository_FindByEmail in http-rest-api/internal/app/store/sqlstore" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestUserRepository_FindByEmail_in_http-rest-api_internal_app_store_sqlstore - 2020.08.31 at 14h 30m 25s.xml">
+      <configuration name="TestUserRepository_FindByEmail in http-rest-api/internal/app/store/sqlstore" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31694403" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.7069243" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28985506" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32850242" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.32850242" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.34341908" />
+      <window_info anchor="right" id="make" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2987897" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.32850242" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.022692889" />
+      <window_info anchor="right" id="make" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Version 1.0" />
+    <MESSAGE value="Version 1.1" />
+    <MESSAGE value="Version 1.2" />
+    <MESSAGE value="Version 1.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/app/store/sqlstore/userrepository_test.go</url>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/go.sum">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.mod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f8521e5c-c0a4-4874-9525-1e7adce22e8a/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20200827233505_create_users.down.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20200827233505_create_users.up.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/apiserver/apiserver_internal_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/model/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/model/validations.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/model/user.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
+          <folding>
+            <element signature="e#15#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/model/user_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/store/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/store/sqlstore/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/store/sqlstore/store.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="28" selection-start-line="2" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/store/teststore/store.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="e#19#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/store/teststore/userrepository.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#19#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/store/teststore/userrepository_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+          <folding>
+            <element signature="e#19#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/store/sqlstore/userrepository_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/store/errors.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/store/sqlstore/store_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/store/sqlstore/userrepository.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+          <folding>
+            <element signature="e#18#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/store/store.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/store/repository.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/apiserver/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/apiserver/apiserver.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#19#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/apiserver/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding>
+            <element signature="e#14#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/apiserver.toml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/apiserver/server_internal_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/apiserver/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+          <folding>
+            <element signature="e#19#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
