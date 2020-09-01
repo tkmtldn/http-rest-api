@@ -50,7 +50,7 @@ func TestServer_AutheticateUser(t *testing.T) {
 			rec := httptest.NewRecorder()
 			req, _ := http.NewRequest("httpMethodGet", "/", nil)
 			cookieStr, _ := sc.Encode(sessionName, tc.cookieValue)
-			req.Header.Set("Cookie", fmt.Sprintf("%s=%S", sessionName, cookieStr))
+			req.Header.Set("Cookie", fmt.Sprintf("%s=%s", sessionName, cookieStr))
 			s.authenticateUser(handler).ServeHTTP(rec, req)
 			assert.Equal(t, tc.expectedCode, rec.Code)
 		})
